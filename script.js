@@ -129,4 +129,4 @@ switch(grade){
 function myfun(){
     alert("hello world");
 }
-object.onclick = function(){myScript};
+object.onclick = function(){myScript}
