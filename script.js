@@ -134,3 +134,20 @@ function myfun() {
 object.onclick = function () {
     myfun();
 };
+
+//LECTURE 5
+//Arrow function
+const add = (a, b) => a * b;
+add = (4,5);
+
+const person1 = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 50,
+  fullName: function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
+person1();
+
+//array is a special kind of object
