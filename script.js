@@ -1,5 +1,5 @@
 //LECTURE 1
-console.log("hello world");
+console.log("hello world") ;
 document.write("hellow world2 <br>");
 
 
@@ -145,7 +145,7 @@ const person1 = {
   lastName: "Doe",
   age: 50,
   fullName: function() {
-    return this.firstName + "  " + this.lastName;
+    return this.firstName + " " + this.lastName;
   }
 };
 person1();
