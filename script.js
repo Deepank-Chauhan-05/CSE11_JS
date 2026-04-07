@@ -145,7 +145,7 @@ const person1 = {
   lastName: "Doe",
   age: 50,
   fullName: function() {
-    return this.firstName + " " + this.lastName;
+    return this.firstName + "" + this.lastName;
   }
 };
 person1();
