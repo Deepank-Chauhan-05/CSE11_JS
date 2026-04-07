@@ -1,6 +1,6 @@
 //LECTURE 1
 console.log("hello world");
-document.write("hellow world  <br>");
+document.write("hellow world <br>");
 
 
 
